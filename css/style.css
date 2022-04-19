@@ -1,119 +1,120 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family:Arial, Helvetica, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-a{
-    text-decoration: none;  
-    color: black;
+a {
+  text-decoration: none;
+  color: black;
 }
 
-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding-top: 10px; 
-    padding-bottom: 20px;
-    z-index: 2; 
-    color: black;
-    background: rgb(255,255,255);
-background: linear-gradient(180deg, rgba(255,255,255,0.8939950980392157) 70%, rgba(0,212,255,0) 100%);    position: absolute;
-    width: 100%;
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  z-index: 2;
+  color: black;
+
+  position: absolute;
+  width: 100%;
+}
+
+.header-title {
+  color: white;
 }
 
 .link-ctn {
-    width: 30%;
-    justify-content: space-around;
-    display: flex;
-    align-items: center;
+  width: 30%;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
 }
-
 
 .link-ctn a {
-    font-size: 20px;
-    color: black;
-    padding: 10px;
-
+  font-size: 15px;
+  color: black;
+  padding: 10px;
+  font-weight: bolder;
+  text-transform: uppercase;
 }
-.link-ctn a:hover{
-    padding: 10px;
-    background-color: black;
-    color: white;
-    border-radius: 10px;
-    transition: .3s;
+.link-ctn a:hover {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  transition: 0.3s;
 }
-.hero{
-    height: 90vh;
-    background-image: url("/img/sport.jpg");
-    background-repeat: no-repeat;
-    background-size: cover ;
-    width: 100%;
-    color: white;
-    display: flex;
-    justify-content: center;
-}
-
-.hero-title{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 15%;
-    height: min-content;
-    padding: 20px;
-    border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.425);
+.hero {
+  height: 90vh;
+  background-image: url("/img/sport.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
 }
 
-.feature{
-    height: 95vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.contact-ctn{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-.contact-ctn a{
-    font-size: 20px;
+.hero-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15%;
+  height: min-content;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.425);
 }
 
-.contact-ctn a:hover{
-    text-decoration: underline;
-    color: blue;
+.feature {
+  height: 95vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-.contact-ctn h1{
-
-}
-.feature img{
-    width: 30%;
-}
-
-.txt-ctn{
-    width: 50%;
-    padding: 20px;
-    
+.contact-ctn {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
-.txt-ctn h1{
-    font-size: 40px;
-    margin-bottom: 15px;
+.contact-ctn a {
+  font-size: 20px;
 }
 
-.txt-ctn p{
-    font-size: 20px;
-    margin-bottom: 15px;
+.contact-ctn a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+.contact-ctn h1 {
+}
+.feature img {
+  width: 30%;
 }
 
-footer{
-    height: 40px;
-    display: flex;
-    color: white;
-    align-items: center;
-    justify-content: center;
-    background-color: black;
+.txt-ctn {
+  width: 50%;
+  padding: 20px;
 }
 
+.txt-ctn h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.txt-ctn p {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+footer {
+  height: 40px;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
